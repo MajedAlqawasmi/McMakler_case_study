@@ -1,12 +1,12 @@
 # Supestore Case Study For McMakler
 by [Majed Alqawasmi](https://github.com/MajedAlqawasmi) August 2021
 <br/><br/>
-##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf)<br/> & provide insights for McMakler 
+##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf) & provide insights for McMakler 
 ![McMakler](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/mcmakler-logo-700x513.jpg)
 
 ## Table of content
 
-- [Project Description](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/README.md#project-Description)
+- [Project Description](https://github.com/MajedAlqawasmi/McMakler_case_study/tree/main#project-Description)
 - [Data](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#data)
 - [Process & Tools](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#process--tools)
 - [Key Take Aways & Final Product](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#key-take-aways)
