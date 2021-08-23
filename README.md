@@ -35,7 +35,7 @@ An iterative/agile approach circled through the following steps:
 - **Data cleaning & wrangling in Python:** using Pandas / numpy to prepare the historical currency converter dataset to be merged with the manin dataset<br/>
 - **Answering questions & Visualization:** using [Tableau](https://public.tableau.com/app/profile/majed6120/viz/SuperstoreCaseStudy_16293384908960/VisualisingDailyProfitinEuro)<br/>
 
-## Key Take Aways & Final Product
+## Key Take Aways
 
 The answer to the three SQL challenges is [here](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt)
 
