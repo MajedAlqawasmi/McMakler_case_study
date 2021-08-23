@@ -1,7 +1,7 @@
 # Supestore Case Study For McMakler
 by [Majed Alqawasmi](https://github.com/MajedAlqawasmi) August 2021
 <br/><br/>
-##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf) & provide insights for McMakler 
+##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf) & provide insights for Superstore management 
 ![McMakler](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/mcmakler-logo-700x513.jpg)
 
 ## Table of content
@@ -39,12 +39,17 @@ An iterative/agile approach circled through the following steps:
 
 The answer to the three SQL challenges is [here](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt)
 
-The answer to Tableau challenges:
-- **part 1 (What is the most profitable category?):** [here](https://public.tableau.com/app/profile/majed6120/viz/SuperstoreCaseStudy_16293384908960/VisualisingDailyProfitinEuro)
-- **Top Companies Compaints Wise & Their Bank Rank (Assets):** ![Top Companies Compaints Wise](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/top_bank_compliants-wise.PNG) Some organisations that might need some scrutiny
-- **Consumer's sentiment:** ![Consumer's sentiment](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/consumer_sentiment.PNG) American cunsumer seems to mainatain objectivity and lack of polarity over the years
-- **Map & Cultural Considerations:** ![Cultural Considerations](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/sentiment_map.PNG) Extra training may be provided to employees in the hightlighted states
-- **Products Susceptible to Fraud Related:** ![Fraud](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/products_susceptible_fraud.PNG) From 2013 to 2019, we see a sharp increase in cryptocurrency related activity comparing to previous years. This can be of interest to Federal AML regulatory body
-- **Products with Response Tardiness:** ![Tardiness](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/products_tardiness.PNG) To customers to whom it may concern and a direct communication with chief compliance officer from the regulator might be needed 
+The answer to Tableau challenge, Part 1:
+- **What is the most profitable category?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
+- **In which State share “furniture/office supplies” will be biggest?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BiggestShareofFurnitureOfficeSuppliesperstate?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
+- **What is the most “profitable” customers’ first name?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BestCustomer?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
+- **How many days it take to ship all product with negative profit?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MedianDaystoShipNegativeProducts?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
+- **In general, which modes, segments and cities are more profitable than other?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ShipModesSegmentsProfitabilityperCity?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) 
 
-- **Dashboard:** For many more insight, please do check out [this dashboard](https://public.tableau.com/shared/H28TMMJNF?:display_count=n&:origin=viz_share_link)<br/>
+The answer to Tableau challenge, Part 2:
+- **Should they close some branches or ways of shipping?:** Yes, indeed all branched with a negative profit ratio and a downward trendline shall be closed as shown [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BadBranchesDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- **Should they put some restriction on products/?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ProductsProfitCustomerServicewise?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) is the a list of the worst products in terms of profit ration and customer service combined
+- **Other advices to Superstore strategy:** This [chart](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ShipModeProfitabilityTimeline?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) shows an issue with the profitability of two of the ship modes (First class & Same day), and this [chart](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/TheDiscountProblem?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) concludes that the reason is the increased dicounts offered for those two ship modes. **Therefore I'd like to recommend a restriction on discounts offered for First class & Same day ship modes and an increase of the overall price.**  
+
+The answer to Tableau challenge, Part 3:
+- **Daily profit in Euros:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/DailyProfitinEuro?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
