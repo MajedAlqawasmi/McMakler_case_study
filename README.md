@@ -6,38 +6,34 @@ by [Majed Alqawasmi](https://github.com/MajedAlqawasmi) August 2021
 
 ## Table of content
 
-- [Project Description](https://github.com/MajedAlqawasmi/McMakler_case_study/tree/main#project-Description)
-- [Data](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#data)
-- [Process & Tools](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#process--tools)
-- [Key Take Aways & Final Product](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/README.md#key-take-aways)
+- [Project Description](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/README.md#project-Description)
+- [Data](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/README.md#data)
+- [Process & Tools](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/README.md#process--tools)
+- [Key Take Aways](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/README.md#key-take-aways)
 
 ## Project Description
-This project shall aim to both, highlight important findings, and provided Data analysis with a comprehensive dashboard on consumer complaint about banking products in the U.S from 2013 to 2019. It aims to raise consumer awareness, helps the regulator in decision making and prompts financial institutions to optimize their both their complaint handling process as well as their products. 
+This project shall: 
+- answer specific questions through SQL querying
+- visualise certain queries
+- provide business insights based on findings in historical data   
 
 ## Data
-Four datasets: 
-- [Consumer Complaints database from Consumer Financial Protection Bureau, USA](https://www.consumerfinance.gov/data-research/consumer-complaints/) 
-- [Consumer Complaints database from data.world](https://data.world/cfpb/consumer-complaints/workspace/file?filename=complaint_data.csv)
-- [U.S bank rank according to total assets](https://www.usbanklocations.com/bank-rank/total-assets.html?d=2021-03-31)
-- [U.S Zipcode database](https://simplemaps.com/data/us-zips)
+Two datasets: 
+- [U.S Superstore data published in 2019](https://data.world/annjackson/2019-superstore) 
+- [Open source historical currency converter](https://www.currency-converter.org.uk/currency-rates/historical/table/EUR-USD.html)
 
 ## Process & Tools
 
 **Process**
-My ways of working included an iterative/agile approach circling through the following steps:
+An iterative/agile approach circled through the following steps:
 
-- **Github:** set up our Github repo to collaborate on or to simply use for this project. <br/>
-- **Project management:** [Trello](https://trello.com/b/UOn2CIdn/ironhack-final-project)
+- **Github:** set up our Github repo to use for this project. <br/>
+- **Project management:** Using Trello
 - **WorldWideWeb:** find datasets<br/>
-- **Coding:** [Jupyter notebook](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/final_project.ipynb)
-- **EDA:** assessment of dataframe to prepare for cleaning<br/>
-- **Data cleaning & wrangling in Python:** using Pandas / numpy to drop columns, join tables, drop null values, convert some uppercase to lower<br/>
-- **Web Scraping:** using BeautifulSoup<br/>
-- **Text Analysis:** NLP using TextBlob to achieve a Sentiment score for each customer narrative<br/>
-- **Querying:** using MySQL & Tableau<br/>
-- **Answering question & Visualization:** using [Tableau](https://public.tableau.com/views/Happiness_16250058634520/Top5CorrelationDive?:language=en-US&:display_count=n&:origin=viz_share_link)<br/>
-- **Finalizing a full dashboard:** using [Tableau](https://public.tableau.com/views/Happiness_16250058634520/Top5CorrelationDive?:language=en-US&:display_count=n&:origin=viz_share_link)<br/>
-- **Presentation:** [google slides](https://docs.google.com/presentation/d/1rhUcAz9iLyuiL-HABICM4ZkHcmgFSo7NMqwrWDgCZaU/edit?usp=sharing)
+- **Querying:** providing [answers](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt) using MySQL<br/>
+- **Web Scraping:** historical currency converter using Python/BeautifulSoup in a [Jupyter notebook](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/web_scraping/web_scraping_currency.ipynb)<br/>
+- **Data cleaning & wrangling in Python:** using Pandas / numpy to prepare the historical currency converter dataset to be merged with the manin dataset<br/>
+- **Answering questions & Visualization:** using [Tableau](https://public.tableau.com/app/profile/majed6120/viz/SuperstoreCaseStudy_16293384908960/VisualisingDailyProfitinEuro)<br/>
 
 ## Key Take Aways & Final Product
 
