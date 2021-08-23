@@ -1,6 +1,7 @@
-SQL Challenge
+#SQL Challenge
 
-Prework (organizing dataset):
+#Prework (organizing dataset):
+
 create table customers
 (id INT,
 country VARCHAR(50),
@@ -37,7 +38,7 @@ Values (1, 'O-01', 'DE', 1),
 (12, 'O-123', 'DE', 1);
 
 
-Question 1:
+#Question 1:
 
 with same1 as (select distinct c.name as name, count(o.id) over (partition by c.name ORDER BY c.name ASC ) AS same 
 from orders o
@@ -57,7 +58,7 @@ group by name;
 
 
 
-Question 2:
+#Question 2:
 select o.id AS start, lead(o.id) OVER(ORDER BY o.id) AS End
 from orders o;
 
@@ -89,7 +90,7 @@ FROM numbers nb1
 
 
 
-Question 3:
+#Question 3:
 select max(start) as start_, max(End) as End_
 from                       
 (select *, case when groups1.End >= start then 0 else 1 end AS islandstartid, sum(case when groups1.End >= start then 0 else 1 end) over (order by groups1.row_num) as islandid                      
