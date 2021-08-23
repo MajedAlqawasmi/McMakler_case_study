@@ -33,7 +33,7 @@ An iterative/agile approach circled through the following steps:
 - **Querying:** providing [answers](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt) using MySQL<br/>
 - **Web Scraping:** historical currency converter using Python/BeautifulSoup in a [Jupyter notebook](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/web_scraping/web_scraping_currency.ipynb)<br/>
 - **Data cleaning & wrangling in Python:** using Pandas / numpy to prepare the historical currency converter dataset to be merged with the manin dataset<br/>
-- **Answering questions & Visualization:** using [Tableau](https://public.tableau.com/app/profile/majed6120/viz/SuperstoreCaseStudy_16293384908960/VisualisingDailyProfitinEuro)<br/>
+- **Answering questions & Visualization:** using [Tableau](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)<br/>
 
 ## Key Take Aways
 
