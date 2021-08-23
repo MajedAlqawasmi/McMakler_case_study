@@ -37,8 +37,10 @@ An iterative/agile approach circled through the following steps:
 
 ## Key Take Aways & Final Product
 
-- **Complaints trend over last 7 years:** ![Trend](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/complaints_over_years.PNG) Trend is pointing upward therefore some action might be needed
-- **Top 5 products in terms of numbers of complaints in top 20 banks:** ![Top 5 products](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/top5product20banks.PNG) Number of complaints for each product is proportionate to companies' sizes
+The answer to the three SQL challenges is [here](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt)
+
+The answer to Tableau challenges:
+- **part 1 (What is the most profitable category?):** [here](https://public.tableau.com/app/profile/majed6120/viz/SuperstoreCaseStudy_16293384908960/VisualisingDailyProfitinEuro)
 - **Top Companies Compaints Wise & Their Bank Rank (Assets):** ![Top Companies Compaints Wise](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/top_bank_compliants-wise.PNG) Some organisations that might need some scrutiny
 - **Consumer's sentiment:** ![Consumer's sentiment](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/consumer_sentiment.PNG) American cunsumer seems to mainatain objectivity and lack of polarity over the years
 - **Map & Cultural Considerations:** ![Cultural Considerations](https://github.com/MajedAlqawasmi/final_project_ironhac/blob/main/sentiment_map.PNG) Extra training may be provided to employees in the hightlighted states
