@@ -32,18 +32,18 @@ An iterative/agile approach circled through the following steps:
 - **Querying:** providing [answers](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt) using MySQL<br/>
 - **Web Scraping:** historical currency converter using Python/BeautifulSoup in a [Jupyter notebook](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/web_scraping/web_scraping_currency.ipynb)<br/>
 - **Data cleaning & wrangling in Python:** using Pandas / numpy to prepare the historical currency converter dataset to be merged with the manin dataset<br/>
-- **Answering questions & Visualization:** using [Tableau](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)<br/>
+- **Answering questions with Visualization & dashboards:** using [Tableau](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)<br/>
 
 ## Key Take Aways
 
 The answer to the three SQL challenges is [here](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt)
 
 The answer to Tableau challenge, Part 1:
-- **What is the most profitable category?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
-- **In which State share “furniture/office supplies” will be biggest?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BiggestShareofFurnitureOfficeSuppliesperstate?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
-- **What is the most “profitable” customers’ first name?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BestCustomer?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
-- **How many days it take to ship all product with negative profit?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MedianDaystoShipNegativeProducts?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
-- **In general, which modes, segments and cities are more profitable than other?:** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ShipModesSegmentsProfitabilityperCity?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) 
+- **What is the most profitable category?** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MostProfitableCategory?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link) is the answer
+- **In which State share “furniture/office supplies” will be biggest?** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BiggestShareofFurnitureOfficeSuppliesperstate?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link) is the answer
+- **What is the most “profitable” customers’ first name?** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ShipModesSegmentsProfitabilityperCity?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) is the answer
+- **How many days it take to ship all product with negative profit?** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/MedianDaystoShipNegativeProducts?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link) is the answer
+- **In general, which modes, segments and cities are more profitable than other?** [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/ShipModesSegmentsProfitabilityperCity?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) is the dashboard
 
 The answer to Tableau challenge, Part 2:
 - **Should they close some branches or ways of shipping?:** Yes, indeed all branched with a negative profit ratio and a downward trendline shall be closed as shown [here](https://public.tableau.com/views/SuperstoreCaseStudy_16293384908960/BadBranchesDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
