@@ -1,8 +1,7 @@
 # Supestore Case Study
 by [Majed Alqawasmi](https://github.com/MajedAlqawasmi) August 2021
 <br/><br/>
-##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf) & provide insights for Superstore management 
-![McMakler](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/mcmakler-logo-700x513.jpg)
+##  SQL queries & Tableau visualisations/dashboards to answer business [questions](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/BI%20Case%20Study.pdf) & provide insights for Superstore management
 
 ## Table of content
 
