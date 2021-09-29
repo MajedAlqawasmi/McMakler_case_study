@@ -1,6 +1,10 @@
-#SQL Challenge
+SQL Challenge
 
-#Prework (organizing dataset):
+Prework (create database to query easier):
+
+CREATE DATABASE case_study;
+
+USE case_study;
 
 create table customers
 (id INT,
@@ -38,16 +42,19 @@ Values (1, 'O-01', 'DE', 1),
 (12, 'O-123', 'DE', 1);
 
 
-#Question 1:
 
-with same1 as (select distinct c.name as name, count(o.id) over (partition by c.name ORDER BY c.name ASC ) AS same 
-from orders o
-join customers c on o.customer_id = c.id
-where o.country = c.country), 
-different1 as (select distinct c.name as name, count(o.id) over (partition by c.name ORDER BY c.name ASC ) AS different 
-from orders o
-join customers c on o.customer_id = c.id
-where o.country <> c.country)
+
+
+Question 1:
+
+with same1 as (select c.name as name, count(o.id) as same
+from customers c
+join orders o on o.customer_id = c.id and c.country = o.country
+group by 1), 
+different1 as (select c.name as name, count(o.id) as different
+from customers c
+join orders o on o.customer_id = c.id and c.country <> o.country
+group by 1)
 select name, same, COALESCE(different, 0) as different
 from customers c
 left join same1 s using(name)
@@ -55,57 +62,21 @@ left join different1 d using(name)
 group by name;
 
 
+Question 2:
+select id +  1 as start, lead_ - 1 as end
+from (select id, lead(id) over (order by id) as lead_, lead(id) over (order by id) - id as difference
+from orders) t1
+where difference > 1;
 
 
+Question 3:
 
-#Question 2:
-select o.id AS start, lead(o.id) OVER(ORDER BY o.id) AS End
-from orders o;
-
-select (o.id+1) AS start, lead((o.id-1)) OVER(ORDER BY o.id) AS End
-from orders o;
-
-WITH orders(id) as (select 1  from dual union all
-			select 4  from dual union all
-			select 5  from dual union all
-			select 6  from dual union all
-			select 8 from dual union all
-			select 10 from dual union all
-			select 11 from dual union all
-			select 12 from dual),
-numbers AS (
-SELECT row_number() over (ORDER BY id ASC ) row_num,
-       id
-FROM orders
-)
-                   
-SELECT nb1.id+1 AS start,
-       nb2.id-1 AS End
-       
-FROM numbers nb1
-
-  INNER JOIN numbers nb2 ON nb1.row_num + 1 = nb2.row_num 
-                        AND nb1.id + 1 < nb2.id
+select clean_num + 1 as start, lead_ - 1 as end
+from (select right(number, length(number) - 2) as clean_num, lead(right(number, length(number) - 2)) over (order by right(number, length(number) - 2)) as lead_, lead(right(number, length(number) - 2)) over (order by right(number, length(number) - 2)) - right(number, length(number) - 2) as difference
+from orders) t1
+where difference > 1;
 
 
-
-
-#Question 3:
-select max(start) as start_, max(End) as End_
-from                       
-(select *, case when groups1.End >= start then 0 else 1 end AS islandstartid, sum(case when groups1.End >= start then 0 else 1 end) over (order by groups1.row_num) as islandid                      
-from(                      
-SELECT row_number() over (ORDER BY number ASC) row_num, number, right(number, length(number) - 2)+1 AS start, lead(right(number, length(number) - 2)-1) OVER(ORDER BY number) AS End
-from orders) groups1) islands
-where number <> 'O-01' and number <> 'O-123'
-group by islandid
-order by start_;
-
-
-
-
-select right(number, length(number) - 2)+1 AS 'start', lead(right(number, length(number) - 2)-1) OVER(ORDER BY o.number) AS End 
-from orders o;
 
 
 
