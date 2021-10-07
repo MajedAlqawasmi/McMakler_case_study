@@ -26,7 +26,7 @@ Two datasets:
 **Process**
 An iterative/agile approach circled through the following steps:
 
-- **Github:** set up our Github repo to use for this project. <br/>
+- **Github:** set up Github repo to use for this project. <br/>
 - **Project management:** Using Trello
 - **WorldWideWeb:** find datasets<br/>
 - **Querying:** providing [answers](https://github.com/MajedAlqawasmi/McMakler_case_study/blob/main/SQL_Challenge/SQL_challenge_answered.txt) using MySQL<br/>
